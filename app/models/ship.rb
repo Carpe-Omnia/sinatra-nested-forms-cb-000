@@ -1,10 +1,10 @@
 class Ship
-  attr accessor :name, :type, :booty 
+  attr accessor :name, :type, :booty
   @@all = []
-  def initialize 
+  def initialize
     @@all << self
-  end 
+  end
   def self.clear
     @@all = []
-  end      
+  end
 end
