@@ -1,7 +1,10 @@
 class Ship
   attr_accessor :name, :type, :booty
   @@all = []
-  def initialize
+  def initialize(stuff)
+    @name = stuff["name"]
+    @type = stuff["type"]
+    @booty = stuff["booty"]
     @@all << self
   end
   def.all
