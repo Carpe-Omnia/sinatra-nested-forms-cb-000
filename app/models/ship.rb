@@ -4,6 +4,9 @@ class Ship
   def initialize
     @@all << self
   end
+  def.all
+    @@all
+  end
   def self.clear
     @@all = []
   end
