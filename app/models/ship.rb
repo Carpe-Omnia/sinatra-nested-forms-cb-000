@@ -7,7 +7,7 @@ class Ship
     @booty = stuff["booty"]
     @@all << self
   end
-  def.all
+  def self.all
     @@all
   end
   def self.clear
