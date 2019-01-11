@@ -17,6 +17,7 @@ module FormsLab
         Ship.new(info)
       end
       @ships = Ship.all
+      puts @ships 
       erb :'pirates/show'
     end
 
