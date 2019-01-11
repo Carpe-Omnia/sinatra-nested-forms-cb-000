@@ -13,4 +13,7 @@ class Ship
   def self.clear
     @@all = []
   end
+  def name
+    @name
+  end
 end
