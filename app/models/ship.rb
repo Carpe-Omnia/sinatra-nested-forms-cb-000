@@ -1,5 +1,5 @@
 class Ship
-  attr accessor :name, :type, :booty
+  attr_accessor :name, :type, :booty
   @@all = []
   def initialize
     @@all << self
